@@ -53,3 +53,4 @@ ggsave("pollingError.eps")
 #   ylab ("Underestimated Republican Vote (% difference)") + theme_economist() +
 #   theme(axis.text.x = element_text(angle = 90))
 # 
+mean(pollError$error)
